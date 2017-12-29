@@ -1,0 +1,40 @@
+.icon-check {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe876;');
+}
+.icon-cancel {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe611;');
+}
+.icon-add {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe145;');
+}
+.icon-chat {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe0cb;');
+}
+.icon-close {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe5cd;');
+}
+.icon-note {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe14d;');
+}
+.icon-square {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe3c6;');
+}
+.icon-statistic {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe01d;');
+}
+.icon-fitness {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xeb43;');
+}
+.icon-info {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe88f;');
+}
+.icon-food {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe56c;');
+}
+.icon-navigate_prev {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe408;');
+}
+.icon-navigate_next {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe409;');
+}
+

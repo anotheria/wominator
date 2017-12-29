@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,SAAS;EAGL,2BAA2B,EAAG,IAAI;EAClC,mBAAmB,EAAG,IAAI;;AAI9B,iBAAiB;EACb,OAAO,EAAG,CAAC;;AAIf,gBAAgB;EACZ,OAAO,EAAG,CAAC;;AAGf,QAAQ;EACJ,sBAAsB,EAAG,OAAO;EAChC,cAAc,EAAG,OAAO;;;;IAIpB,OAAO,EAAG,CAAC;;IAGX,OAAO,EAAG,CAAC;;;IAIX,OAAO,EAAG,CAAC;;IAGX,OAAO,EAAG,CAAC",
+"sources": ["anitmation.sass"],
+"names": [],
+"file": "anitmation.css"
+}
