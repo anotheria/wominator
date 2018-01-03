@@ -1,26 +1,26 @@
 $(function () {
+    /**
+     * Show / hide additional options for items in table.
+     */
+    $('.swipe-area').on({
+        'swipeleft': function (e) {
+            $('.swipe-area').removeClass("open-swipe")
+            $(this).addClass("open-swipe");
+        },
 
-    $(".swipe-area").on("swipeleft", swipeleftHandler);
+        'swiperight': function (e) {
+            $(this).removeClass("open-swipe");
+        }
+    });
 
-    function swipeleftHandler() {
-        $('.swipe-area').removeClass("open-swipe")
-        $(this).addClass("open-swipe");
-    }
-
-    $(".swipe-area").on("swiperight", swiperightHandler);
-
-    function swiperightHandler() {
-        $(this).removeClass("open-swipe");
-    }
-});
-
-$(document).ready(function () {
-
-    $('.icons-swipe').on('click', function(){
+    /**
+     * Remove current item on click.
+     */
+    $('.icons-swipe').click(function (e) {
         $(this).parent('.row-food').remove();
     });
 
-    $('.owl-carousel').owlCarousel({
+    var owl = $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
         nav: true,
@@ -32,8 +32,6 @@ $(document).ready(function () {
         smartSpeed: 450
     });
 
-    var owl = $('.owl-carousel').owlCarousel();
-
     $(".owl-prev").click(function () {
         owl.trigger('prev.owl.carousel');
     });
@@ -42,30 +40,18 @@ $(document).ready(function () {
         owl.trigger('next.owl.carousel');
     });
 
-    var $checkbox = $('.custom-checkbox');
-
-    $checkbox.click(function () {
+    /**
+     * Toggle active class for current item on checkbox click.
+     */
+    $('.custom-checkbox').click(function () {
         $(this).parents('.row-food').toggleClass('active');
     });
 
-    //==================================
-    //ADD NEW FOOD
-    //==================================
-
-    $('.breakfast .add-tr').click(function () {
-        $('.owl-item.active .breakfast .row-food:last-child').after('<div class="row-food swipe-area"><div class="box"><input class="form-control form-data" type="time" value="00:00:00"></div><div class="box"><input type="text" class="form-control form-data"></div><div class="box"><input class="form-control form-data" type="tel"></div><div class="box"><input type="checkbox" class="custom-checkbox"></div></div>');
+    /**
+     * Add new empty food item on click.
+     */
+    $('.add-tr').click(function (e) {
+        var $template = $('#foodRow').children();
+        $(this).closest('.food-section').append( $template.clone(true, true) );
     });
-
-    $('.lunch .add-tr').on('click', function () {
-        $('.owl-item.active .lunch .row-food:last-child').after('<div class="row-food"><div class="box"><input class="form-control form-data" type="time" value="00:00:00"></div><div class="box"><input type="text" class="form-control form-data"></div><div class="box"><input class="form-control form-data" type="tel"></div><div class="box"><span class="custom-checkbox"></span></div></div>');
-    });
-
-    $('.dinner .add-tr').on('click', function () {
-        $('.owl-item.active .dinner .row-food:last-child').after('<div class="row-food"><div class="box"><input class="form-control form-data" type="time" value="00:00:00"></div><div class="box"><input type="text" class="form-control form-data"></div><div class="box"><input class="form-control form-data" type="tel"></div><div class="box"><span class="custom-checkbox"></span></div></div>');
-    });
-
-    //$('.custom-checkbox').click(function () {
-    //    $(this).parents('.row-food').toggleClass('active');
-    //});
-
 });
