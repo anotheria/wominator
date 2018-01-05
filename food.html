@@ -9,7 +9,6 @@
 	<meta name="keywords" content="">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" rev="stylesheet" href="ext/OwlCarousel2-2.2.1/src/scss/owl.carousel.css"/>
-	<!--<link type="text/css" rel="stylesheet" rev="stylesheet" href="ext/jquery/jquery.mobile-1.5.0-alpha.1.min.css"/>-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
 		integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" rev="stylesheet" href="int/css/common.css"/>
@@ -27,20 +26,22 @@
 
 <div class="wrapper">
 	<div class="content">
-		<div class="box-data">
+		<div class="wrapper-data">
 			<div class="owl-navigation">
 				<i class="owl-prev"></i>
 				<i class="owl-next"></i>
 			</div>
 			<div class="owl-carousel">
 				<div class="item">
-					<time>11.11.2017</time>
-					<div class="data-food">
+					<div class="title-data">
+						<time>11.11.2017</time>
+					</div>
+					<div class="data-box data-food">
 						<!--===============================-->
-						<!--HEADER-FOOD-->
+						<!--HEADER-DATA-->
 						<!--===============================-->
-						<div class="header-food">
-							<div class="row-food">
+						<div class="header-data">
+							<div class="row-data row-food">
 								<div class="box">
 									Время
 								</div>
@@ -59,12 +60,12 @@
 						<!--===============================-->
 						<!--BREAKFAST-->
 						<!--===============================-->
-						<div class="breakfast food-section">
-							<span class="title-food">
-								Завтрак
-								<i class="icon-add add-tr"></i>
-							</span>
-							<div class="row-food swipe-area">
+						<div class="food-section">
+							<span class="title">
+							Завтрак
+							<i class="icon-add add-tr"></i>
+						</span>
+							<div class="row-data row-food swipe-area">
 								<div class="box">
 									<input class="form-control form-data" type="time" value="09:00:00">
 								</div>
@@ -83,7 +84,7 @@
 									<i class="icon-close"></i>
 								</div>
 							</div>
-							<div class="row-food swipe-area">
+							<div class="row-data row-food swipe-area">
 								<div class="box">
 									<input class="form-control form-data" type="time" value="09:05:00">
 								</div>
@@ -102,7 +103,7 @@
 									<i class="icon-close"></i>
 								</div>
 							</div>
-							<div class="row-food swipe-area">
+							<div class="row-data row-food swipe-area">
 								<div class="box">
 									<input class="form-control form-data" type="time" value="09:10:00">
 								</div>
@@ -125,12 +126,12 @@
 						<!--===============================-->
 						<!--LUNCH-->
 						<!--===============================-->
-						<div class="lunch food-section">
-							<span class="title-food">
-								Обед
-								<i class="icon-add add-tr"></i>
-							</span>
-							<div class="row-food swipe-area">
+						<div class="food-section">
+							<span class="title">
+							Обед
+							<i class="icon-add add-tr"></i>
+						</span>
+							<div class="row-data row-food swipe-area">
 								<div class="box">
 									<input class="form-control form-data" type="time" value="14:00:00">
 								</div>
@@ -149,7 +150,7 @@
 									<i class="icon-close"></i>
 								</div>
 							</div>
-							<div class="row-food swipe-area">
+							<div class="row-data row-food swipe-area">
 								<div class="box">
 									<input class="form-control form-data" type="time" value="14:05:00">
 								</div>
@@ -168,7 +169,7 @@
 									<i class="icon-close"></i>
 								</div>
 							</div>
-							<div class="row-food swipe-area">
+							<div class="row-data row-food swipe-area">
 								<div class="box">
 									<input class="form-control form-data" type="time" value="09:10:00">
 								</div>
@@ -191,12 +192,12 @@
 						<!--===============================-->
 						<!--DINNER-->
 						<!--===============================-->
-						<div class="dinner food-section">
-							<span class="title-food">
-								Ужин
-								<i class="icon-add add-tr"></i>
-							</span>
-							<div class="row-food swipe-area">
+						<div class="food-section">
+							<span class="title">
+							Ужин
+							<i class="icon-add add-tr"></i>
+						</span>
+							<div class="row-data row-food swipe-area">
 								<div class="box">
 									<input class="form-control form-data" type="time" value="19:00:00">
 								</div>
@@ -215,7 +216,7 @@
 									<i class="icon-close"></i>
 								</div>
 							</div>
-							<div class="row-food swipe-area">
+							<div class="row-data row-food swipe-area">
 								<div class="box">
 									<input class="form-control form-data" type="time" value="19:05:00">
 								</div>
@@ -238,13 +239,15 @@
 					</div>
 				</div>
 				<div class="item">
-					<time>12.11.2017</time>
+					<div class="title-data">
+						<time>12.11.2017</time>
+					</div>
 					<div class="data-food">
 						<!--===============================-->
 						<!--HEADER-FOOD-->
 						<!--===============================-->
-						<div class="header-food">
-							<div class="row-food">
+						<div class="header-data header-food">
+							<div class="row-data row-food">
 								<div class="box">
 									Время
 								</div>
@@ -263,38 +266,29 @@
 						<!--===============================-->
 						<!--BREAKFAST-->
 						<!--===============================-->
-						<div class="breakfast food-section">
-							<span class="title-food">
+						<div class="food-section">
+							<span class="title">
 								Завтрак
 								<i class="icon-add add-tr"></i>
 							</span>
-							<div class="row-food">
-
-							</div>
 						</div>
 						<!--===============================-->
 						<!--LUNCH-->
 						<!--===============================-->
-						<div class="lunch food-section">
-							<span class="title-food">
+						<div class="food-section">
+							<span class="title">
 								Обед
 								<i class="icon-add add-tr"></i>
 							</span>
-							<div class="row-food">
-
-							</div>
 						</div>
 						<!--===============================-->
 						<!--DINNER-->
 						<!--===============================-->
-						<div class="dinner food-section">
-							<span class="title-food">
+						<div class="food-section">
+							<span class="title">
 								Ужин
 								<i class="icon-add add-tr"></i>
 							</span>
-							<div class="row-food">
-
-							</div>
 						</div>
 					</div>
 				</div>
@@ -344,7 +338,7 @@
 </footer>
 
 <div id="foodRow" style="display: none;">
-	<div class="row-food swipe-area">
+	<div class="row-data row-food swipe-area">
 		<div class="box"><input class="form-control form-data" type="time" value="00:00:00"></div>
 		<div class="box"><input type="text" class="form-control form-data"></div>
 		<div class="box"><input class="form-control form-data" type="tel"></div>

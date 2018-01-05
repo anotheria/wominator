@@ -34,17 +34,19 @@ $(function () {
 
     $(".owl-prev").click(function () {
         owl.trigger('prev.owl.carousel');
+        $('.swipe-area').removeClass("open-swipe");
     });
 
     $(".owl-next").click(function () {
         owl.trigger('next.owl.carousel');
+        $('.swipe-area').removeClass("open-swipe");
     });
 
     /**
      * Toggle active class for current item on checkbox click.
      */
     $('.custom-checkbox').click(function () {
-        $(this).parents('.row-food').toggleClass('active');
+        $(this).parents('.row-data').toggleClass('active');
     });
 
     /**

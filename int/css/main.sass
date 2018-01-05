@@ -1,4 +1,4 @@
-.box-data
+.wrapper-data
     text-align: left
     position: relative
     z-index: 101
@@ -7,7 +7,7 @@
     margin-left: auto
     margin-right: auto
 
-    time
+    .title-data
         font-size: 1rem
         text-align: center
         display: block
@@ -17,48 +17,16 @@
         border: none
         border-radius: 0
 
-    .data-food
+    .data-box
         background: $light
         position: relative
         z-index: 101
         overflow: hidden
 
-        .header-food
-            background: $primary
-            color: $light
-            font-size: .875rem
-            font-weight: 400
-            padding: .4rem
-            white-space: nowrap
-
-            .row-food
-                border: none
-
-        .row-food
-            display: flex
-            justify-content: space-around
-            align-items: center
-            border-top: 1px solid $lighter
-            position: relative
-            transition:  all 0.12s linear
-
-            &.active
-                background: $active
-
-            &>.box:nth-child(1)
-                width: 21%
-
-            &>.box:nth-child(2)
-                width: 53%
-
-            &>.box:nth-child(3)
-                width: 15%
-
-            &>.box:nth-child(4)
-                width: 12%
-
         .box
             padding: 0 .4rem
+
+    .data-food
 
         .row-food.active
 
@@ -69,7 +37,7 @@
             padding: .5rem 0
             font-size: 0.8rem
 
-    .title-food
+    .title
         padding: .4rem
         text-align: center
         background: $lighter
@@ -82,6 +50,61 @@
             right: 10px
             top: 50%
             transform: translateY(-50%)
+
+.row-data
+    text-align: left
+    display: flex
+    justify-content: space-around
+    align-items: center
+    position: relative
+    transition:  all 0.12s linear
+    border-top: 1px solid $lighter
+    min-height: 40px
+    padding: 0 0.4rem
+
+    &.active
+        background: $active
+
+.row-food
+
+    &>.box:nth-child(1)
+        width: 21%
+
+    &>.box:nth-child(2)
+        width: 53%
+
+    &>.box:nth-child(3)
+        width: 15%
+
+    &>.box:nth-child(4)
+        width: 12%
+
+.row-training
+
+    &>.box:nth-child(1)
+        width: 20%
+
+    &>.box:nth-child(2)
+        width: 40%
+
+    &>.box:nth-child(3)
+        width: 28%
+
+    &>.box:nth-child(4)
+        width: 12%
+
+.header-data
+    background: $primary
+    color: $light
+    font-size: .875rem
+    font-weight: 400
+    padding: .4rem
+    white-space: nowrap
+
+    .row-data
+        border: none
+        min-height: 10px
+        padding: 0
 
 .custom-checkbox
     width: 20px
