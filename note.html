@@ -14,18 +14,67 @@
 
 <body>
 
-<div class="bg-gray"></div>
-
 <header id="header">
 	<div class="header-title">
 		<span>Заметки</span>
+		<div class="content-right">
+			<button class="btn btn-success btn-add-note" data-toggle="modal" data-target="#addNote">
+				<i class="icon icon-add"></i>
+			</button>
+		</div>
 	</div>
 </header>
 
 <div class="wrapper">
 	<div class="content">
 		<div class="container">
-
+			<ul class="note">
+				<li class="note-block note-primary">
+					<h4 class="note-title">
+						Title note
+						<data class="data" value="">01.01.2018</data>
+					</h4>
+					<p>
+						Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
+					</p>
+				</li>
+				<li class="note-block note-primary">
+					<h4 class="note-title">
+						Title note
+						<data class="data" value="">15.12.2017</data>
+					</h4>
+					<p>
+						Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться, текст мешает сосредоточиться.
+					</p>
+				</li>
+				<li class="note-block note-primary">
+					<h4 class="note-title">
+						Title note
+						<data class="data" value="">11.12.2017</data>
+					</h4>
+					<p>
+						Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться, текст мешает сосредоточиться, текст мешает сосредоточиться.
+					</p>
+				</li>
+				<li class="note-block note-primary">
+					<h4 class="note-title">
+						Title note
+						<data class="data" value="">11.12.2017</data>
+					</h4>
+					<p>
+						Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
+					</p>
+				</li>
+				<li class="note-block note-primary">
+					<h4 class="note-title">
+						Title note
+						<data class="data" value="">11.12.2017</data>
+					</h4>
+					<p>
+						Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
+					</p>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>
@@ -69,6 +118,30 @@
 		</li>
 	</ul>
 </footer>
+
+<!-- NOTE MODAL -->
+<div class="modal fade modal-note" id="addNote" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="titleNote">Title note</label>
+						<input type="text" class="form-control" id="titleNote" placeholder="">
+					</div>
+					<div class="form-group">
+						<label for="note">Note</label>
+						<textarea class="form-control" id="note" rows="3"></textarea>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 <script src="ext/jquery/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
 <script src="ext/popper/popper.min.js" crossorigin="anonymous"></script>

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAc;EACV,aAAa,EAAE,CAAC",
+"sources": ["modal.sass"],
+"names": [],
+"file": "modal.css"
+}

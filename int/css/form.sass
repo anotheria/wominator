@@ -5,12 +5,18 @@
         margin-top: 8px
 
 .form-control
-    background: $none-color
+    background-color: $none-color
     color: $main-color
+    box-shadow: none
+    border: 1px solid $lighter
+    border-radius: 0
 
     &:disabled
         background: $none-color
         font-size: 0.8rem
+
+    &:focus
+        border-color: $primary
 
 .select
     color: $main-color
