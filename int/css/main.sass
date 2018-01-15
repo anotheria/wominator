@@ -7,12 +7,6 @@
     margin-left: auto
     margin-right: auto
 
-    .title-data
-        font-size: 1rem
-        text-align: center
-        display: block
-        margin-bottom: 10px
-
     .form-data
         border: none
         border-radius: 0
@@ -51,13 +45,21 @@
             top: 50%
             transform: translateY(-50%)
 
+    .progress
+        margin-bottom: 15px
+
+.title-data
+    font-size: 0.8rem
+    text-align: center
+    display: block
+
 .row-data
     text-align: left
     display: flex
     justify-content: space-around
     align-items: center
     position: relative
-    transition:  all 0.12s linear
+    transition: all 0.12s linear
     border-top: 1px solid $lighter
     min-height: 40px
     padding: 0 0.4rem
@@ -67,30 +69,30 @@
 
 .row-food
 
-    &>.box:nth-child(1)
+    & > .box:nth-child(1)
         width: 21%
 
-    &>.box:nth-child(2)
+    & > .box:nth-child(2)
         width: 53%
 
-    &>.box:nth-child(3)
+    & > .box:nth-child(3)
         width: 15%
 
-    &>.box:nth-child(4)
+    & > .box:nth-child(4)
         width: 12%
 
 .row-training
 
-    &>.box:nth-child(1)
+    & > .box:nth-child(1)
         width: 20%
 
-    &>.box:nth-child(2)
+    & > .box:nth-child(2)
         width: 40%
 
-    &>.box:nth-child(3)
+    & > .box:nth-child(3)
         width: 28%
 
-    &>.box:nth-child(4)
+    & > .box:nth-child(4)
         width: 12%
 
 .header-data
@@ -135,45 +137,44 @@
             width: 20px
             height: 20px
 
-
-.owl-navigation
-    position: absolute
-    top: 2px
-    left: 0
-    right: 0
-    z-index: 101
-
-    .owl-prev
-        position: absolute
-        left: 0
-        top: 0
-
-        &:before
-            content: "\e408"
-            font-size: 1.2rem
-            font-family: 'icomoon', sans-serif !important
-            font-style: normal
-            font-weight: normal
-            font-variant: normal
-            text-transform: none
-            line-height: 1
-            -webkit-font-smoothing: antialiased
-
-    .owl-next
-        position: absolute
-        right: 0
-        top: 0
-
-        &:before
-            content: "\e409"
-            font-size: 1.2rem
-            font-family: 'icomoon', sans-serif !important
-            font-style: normal
-            font-weight: normal
-            font-variant: normal
-            text-transform: none
-            line-height: 1
-            -webkit-font-smoothing: antialiased
+//.owl-navigation
+//    position: absolute
+//    top: 2px
+//    left: 0
+//    right: 0
+//    z-index: 101
+//
+//    .owl-prev
+//        position: absolute
+//        left: 0
+//        top: 0
+//
+//        &:before
+//            content: "\e408"
+//            font-size: 1.2rem
+//            font-family: 'icomoon', sans-serif !important
+//            font-style: normal
+//            font-weight: normal
+//            font-variant: normal
+//            text-transform: none
+//            line-height: 1
+//            -webkit-font-smoothing: antialiased
+//
+//    .owl-next
+//        position: absolute
+//        right: 0
+//        top: 0
+//
+//        &:before
+//            content: "\e409"
+//            font-size: 1.2rem
+//            font-family: 'icomoon', sans-serif !important
+//            font-style: normal
+//            font-weight: normal
+//            font-variant: normal
+//            text-transform: none
+//            line-height: 1
+//            -webkit-font-smoothing: antialiased
 
 .swipe-area
     position: relative
@@ -231,3 +232,15 @@
         position: absolute
         top: 0
         right: 0
+
+.wrapper-statistics
+    position: relative
+
+    .select
+        margin-left: 3px
+        margin-top: -3px
+
+.form-title
+    border: none
+    padding: 0
+    text-align: center

@@ -1,4 +1,8 @@
 $(function () {
+    $('#datetimepicker12').datetimepicker({
+        inline: true,
+        sideBySide: true
+    });
     /**
      * Show / hide additional options for items in table.
      */

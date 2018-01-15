@@ -427,8 +427,8 @@
 				}
 			}
 
-			this.$stage.children('.active').removeClass('active');
-			this.$stage.children(':eq(' + matches.join('), :eq(') + ')').addClass('active');
+			this.$stage.children('.active-owl').removeClass('active-owl');
+			this.$stage.children(':eq(' + matches.join('), :eq(') + ')').addClass('active-owl');
 
 			if (this.settings.center) {
 				this.$stage.children('.center').removeClass('center');
