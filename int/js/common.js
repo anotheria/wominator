@@ -2,6 +2,8 @@ $(function () {
     $('#datetimepicker12').datetimepicker({
         inline: true,
         sideBySide: true
+        //disabledHours: true
+        //disabledTimeIntervals: true
     });
     /**
      * Show / hide additional options for items in table.

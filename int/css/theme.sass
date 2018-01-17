@@ -196,3 +196,79 @@ p
 //            border-radius: 50%
 //            width: 1.5rem
 //            height: 1.5rem
+
+.bootstrap-datetimepicker-widget
+    table
+        td
+            &.active
+                width: 1.7rem
+                height: 1.7rem
+                display: block
+                line-height: 1.7rem
+                border-radius: 50%
+                background: $primary
+
+                &.today
+                    &:before
+                        border: none
+
+            &.day
+                width: 1.7rem
+                height: 1.7rem
+                line-height: 1.7rem
+                border: 1px solid $none-color
+
+            &.today
+                border: 1px solid $primary
+                &:before
+                    border: none
+
+        thead
+            tr
+                &:first-child
+                    th
+                        &:hover
+                            background: $none-color
+
+        th
+            &.prev
+                &:after
+                    content: "\e408"
+                    font-size: 1.5rem
+                    color: $main-color
+                    font-family: 'icomoon' !important
+                    speak: none
+                    font-style: normal
+                    font-weight: normal
+                    font-variant: normal
+                    text-transform: none
+                    line-height: 1
+                    -webkit-font-smoothing: antialiased
+                    -moz-osx-font-smoothing: grayscale
+                    display: block
+                    width: 20px
+                    height: 30px
+                    position: relative
+                    float: left
+            &.next
+                &:after
+                    content: "\e409"
+                    font-size: 1.5rem
+                    color: $main-color
+                    font-family: 'icomoon' !important
+                    speak: none
+                    font-style: normal
+                    font-weight: normal
+                    font-variant: normal
+                    text-transform: none
+                    line-height: 1
+                    -webkit-font-smoothing: antialiased
+                    -moz-osx-font-smoothing: grayscale
+                    display: block
+                    width: 20px
+                    height: 30px
+                    position: relative
+                    right: -5px
+
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover
+    .bootstrap-datetimepicker-widget table td.active.today:before

@@ -114,6 +114,63 @@ p {
   display: block;
   margin-bottom: 0.5rem; }
 
+.bootstrap-datetimepicker-widget table td.active {
+  width: 1.7rem;
+  height: 1.7rem;
+  display: block;
+  line-height: 1.7rem;
+  border-radius: 50%;
+  background: #3343a4; }
+  .bootstrap-datetimepicker-widget table td.active.today:before {
+    border: none; }
+.bootstrap-datetimepicker-widget table td.day {
+  width: 1.7rem;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  border: 1px solid rgba(0, 0, 0, 0); }
+.bootstrap-datetimepicker-widget table td.today {
+  border: 1px solid #3343a4; }
+  .bootstrap-datetimepicker-widget table td.today:before {
+    border: none; }
+.bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+  background: rgba(0, 0, 0, 0); }
+.bootstrap-datetimepicker-widget table th.prev:after {
+  content: "";
+  font-size: 1.5rem;
+  color: #575962;
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  width: 20px;
+  height: 30px;
+  position: relative;
+  float: left; }
+.bootstrap-datetimepicker-widget table th.next:after {
+  content: "";
+  font-size: 1.5rem;
+  color: #575962;
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  width: 20px;
+  height: 30px;
+  position: relative;
+  right: -5px; }
+
 .row-data label {
   margin-bottom: 0;
   margin-top: 8px; }
