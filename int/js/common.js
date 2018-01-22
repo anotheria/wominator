@@ -1,9 +1,21 @@
 $(function () {
+    $('.menu-left-show').click(function () {
+        $('.menu-right-show').removeClass('active');
+        $('body').removeClass('menu-right-open');
+        $(this).toggleClass('active');
+        $('body').toggleClass('menu-left-open');
+    });
+
+    $('.bg-gray').click(function () {
+        $('.menu-right-show').removeClass('active');
+        $('body').removeClass('menu-right-open');
+        $('.menu-left-show').removeClass('active');
+        $('body').removeClass('menu-left-open');
+    });
+
     $('#datetimepicker12').datetimepicker({
         inline: true,
         sideBySide: true
-        //disabledHours: true
-        //disabledTimeIntervals: true
     });
     /**
      * Show / hide additional options for items in table.
@@ -26,27 +38,27 @@ $(function () {
         $(this).parent('.row-food').remove();
     });
 
-    var owl = $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        items: 1,
-        touchDrag: false,
-        mouseDrag: false,
-        animateOut: 'fadeOut',
-        animateIn: 'flipInX',
-        smartSpeed: 450
-    });
+    //var owl = $('.owl-carousel').owlCarousel({
+    //    loop: true,
+    //    margin: 10,
+    //    nav: true,
+    //    items: 1,
+    //    touchDrag: false,
+    //    mouseDrag: false,
+    //    animateOut: 'fadeOut',
+    //    animateIn: 'flipInX',
+    //    smartSpeed: 450
+    //});
 
-    $(".owl-prev").click(function () {
-        owl.trigger('prev.owl.carousel');
-        $('.swipe-area').removeClass("open-swipe");
-    });
-
-    $(".owl-next").click(function () {
-        owl.trigger('next.owl.carousel');
-        $('.swipe-area').removeClass("open-swipe");
-    });
+    //$(".owl-prev").click(function () {
+    //    owl.trigger('prev.owl.carousel');
+    //    $('.swipe-area').removeClass("open-swipe");
+    //});
+    //
+    //$(".owl-next").click(function () {
+    //    owl.trigger('next.owl.carousel');
+    //    $('.swipe-area').removeClass("open-swipe");
+    //});
 
     /**
      * Toggle active class for current item on checkbox click.

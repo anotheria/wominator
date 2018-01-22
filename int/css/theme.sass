@@ -200,6 +200,7 @@ p
 .bootstrap-datetimepicker-widget
     table
         td
+            box-sizing: border-box
             &.active
                 width: 1.7rem
                 height: 1.7rem
@@ -207,6 +208,7 @@ p
                 line-height: 1.7rem
                 border-radius: 50%
                 background: $primary
+                border: 1px solid $none-color
 
                 &.today
                     &:before
@@ -217,9 +219,18 @@ p
                 height: 1.7rem
                 line-height: 1.7rem
                 border: 1px solid $none-color
+                //display: inline-block
+                //flex-direction: row
+                //justify-content: center
+                //align-items: center
 
             &.today
                 border: 1px solid $primary
+                //display: inline
+                //flex-direction: row
+                //justify-content: center
+                //align-items: center
+                border-radius: 50%
                 &:before
                     border: none
 
@@ -270,5 +281,26 @@ p
                     position: relative
                     right: -5px
 
-.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover
-    .bootstrap-datetimepicker-widget table td.active.today:before
+.table-condensed
+    thead
+        &>tr
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            align-items: center
+            .dow
+                font-size: 0.8rem
+                margin-top: 1rem
+                padding-bottom: 0.4rem
+    tbody
+        &>tr
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            align-items: center
+
+.pull-left
+    float: left
+
+.pull-right
+    float: right
