@@ -39,7 +39,7 @@ a {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background: #f5f5fa; }
+  background: #f0f0f5; }
 
 .container {
   max-width: 800px; }
@@ -175,21 +175,6 @@ p {
   position: relative;
   right: -5px; }
 
-.table-condensed thead > tr {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
-  .table-condensed thead > tr .dow {
-    font-size: 0.8rem;
-    margin-top: 1rem;
-    padding-bottom: 0.4rem; }
-.table-condensed tbody > tr {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; }
-
 .pull-left {
   float: left; }
 
@@ -302,6 +287,9 @@ p {
     top: 13px;
     transform: rotate(45deg); }
 
+.nav.nav-footer {
+  flex: 1 auto auto;
+  flex-wrap: nowrap; }
 .nav.tabs-mobile {
   border-bottom: 1px solid #ebedf2;
   border-radius: 0;
@@ -364,11 +352,11 @@ p {
   margin-top: 8px; }
 
 .form-control {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #fff;
   color: #575962;
   box-shadow: none;
-  border: 1px solid #e9ecef;
-  border-radius: 0; }
+  border: 1px solid #a6a6a6;
+  border-radius: 2px; }
   .form-control:disabled {
     background: rgba(0, 0, 0, 0);
     font-size: 0.8rem; }
@@ -453,6 +441,24 @@ p {
   .btn-icon .icon {
     font-size: 1.5rem; }
 
+.table-condensed thead > tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .table-condensed thead > tr .dow {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    padding-bottom: 0.4rem; }
+.table-condensed tbody > tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+.table-mobile tbody {
+  background: #fff; }
+
 .modal-content {
   border-radius: 0; }
 
@@ -474,6 +480,25 @@ p {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto; }
+  .wrapper-data .table-mobile thead th {
+    font-size: 0.875rem;
+    line-height: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    background: #3343a4;
+    border-bottom: none;
+    font-weight: 400; }
+  .wrapper-data .table-mobile .form-control {
+    border-color: rgba(0, 0, 0, 0); }
+  .wrapper-data .table-ruler td {
+    height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 30px;
+    vertical-align: middle; }
+    .wrapper-data .table-ruler td:last-child {
+      width: 100px; }
   .wrapper-data .form-data {
     border: none;
     border-radius: 0; }

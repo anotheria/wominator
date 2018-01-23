@@ -2,12 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db3065b7-bb0b-4104-ac46-6a675f2c6944" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/traning.html" afterPath="$PROJECT_DIR$/training.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/int/css/table.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/int/icons/fonts/icomoon.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/int/icons/fonts/icomoon.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/food.html" afterPath="$PROJECT_DIR$/food.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/css/common.css" afterPath="$PROJECT_DIR$/int/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/css/common.css.map" afterPath="$PROJECT_DIR$/int/css/common.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/css/common.sass" afterPath="$PROJECT_DIR$/int/css/common.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/css/form.sass" afterPath="$PROJECT_DIR$/int/css/form.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/css/main.sass" afterPath="$PROJECT_DIR$/int/css/main.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/css/nav.sass" afterPath="$PROJECT_DIR$/int/css/nav.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/css/theme.sass" afterPath="$PROJECT_DIR$/int/css/theme.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/css/variable.sass" afterPath="$PROJECT_DIR$/int/css/variable.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/demo-files/demo.css" afterPath="$PROJECT_DIR$/int/icons/demo-files/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/demo.html" afterPath="$PROJECT_DIR$/int/icons/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/int/icons/fonts/icomoon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/int/icons/fonts/icomoon.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/ie7/ie7.css" afterPath="$PROJECT_DIR$/int/icons/ie7/ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/ie7/ie7.js" afterPath="$PROJECT_DIR$/int/icons/ie7/ie7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/selection.json" afterPath="$PROJECT_DIR$/int/icons/selection.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/int/icons/style.css" afterPath="$PROJECT_DIR$/int/icons/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note.html" afterPath="$PROJECT_DIR$/note.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic.html" afterPath="$PROJECT_DIR$/statistic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training.html" afterPath="$PROJECT_DIR$/training.html" />
     </list>
     <ignored path="wominator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,16 +55,26 @@
     <favorites_list name="wominator" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.61986303">
+    <splitter split-orientation="horizontal" split-proportion="0.52854514">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.74399036">
+        <splitter split-orientation="vertical" split-proportion="0.6051237">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="food.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/food.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-4.627451">
-                      <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ruler.html" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/ruler.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.45094937">
+                      <caret line="74" column="22" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="22" />
                       <folding />
                     </state>
                   </provider>
@@ -53,8 +83,8 @@
               <file leaf-file-name="training.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/training.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-10.625">
-                      <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="27" />
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
                       <folding />
                     </state>
                   </provider>
@@ -63,8 +93,8 @@
               <file leaf-file-name="note.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/note.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-3.75">
-                      <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="27" />
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
                       <folding />
                     </state>
                   </provider>
@@ -73,18 +103,18 @@
               <file leaf-file-name="statistic.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/statistic.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-18.458334">
-                      <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+              <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/home.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.5588235">
-                      <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+                    <state vertical-scroll-proportion="0.0">
+                      <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
                       <folding />
                     </state>
                   </provider>
@@ -97,7 +127,7 @@
               <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/int/js/common.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.078947365">
+                    <state vertical-scroll-proportion="-0.6085919">
                       <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
                       <folding />
                     </state>
@@ -115,8 +145,8 @@
               <file leaf-file-name="theme.sass" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/int/css/theme.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="277" column="10" selection-start-line="277" selection-start-column="10" selection-end-line="277" selection-end-column="10" />
+                    <state vertical-scroll-proportion="-20.958334">
+                      <caret line="281" column="31" selection-start-line="281" selection-start-column="31" selection-end-line="281" selection-end-column="31" />
                       <folding />
                     </state>
                   </provider>
@@ -125,8 +155,8 @@
               <file leaf-file-name="form.sass" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/int/css/form.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+                    <state vertical-scroll-proportion="-5.625">
+                      <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
                       <folding />
                     </state>
                   </provider>
@@ -142,11 +172,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="nav.sass" pinned="false" current-in-tab="true">
+              <file leaf-file-name="nav.sass" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/int/css/nav.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.7955912">
-                      <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+                    <state vertical-scroll-proportion="0.23529412">
+                      <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
                       <folding />
                     </state>
                   </provider>
@@ -155,18 +185,8 @@
               <file leaf-file-name="header.sass" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/int/css/header.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
+                    <state vertical-scroll-proportion="-5.5882354">
                       <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="anitmation.sass" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/int/css/anitmation.sass">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -175,8 +195,18 @@
               <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/int/css/main.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0">
-                      <caret line="22" column="18" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="18" />
+                    <state vertical-scroll-proportion="-0.625">
+                      <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="table.sass" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/int/css/table.sass">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.43923867">
+                      <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
                       <folding />
                     </state>
                   </provider>
@@ -196,21 +226,31 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="variable.sass" pinned="false" current-in-tab="true">
+              <file leaf-file-name="variable.sass" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/int/css/variable.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.48979592">
-                      <caret line="8" column="17" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
+                    <state vertical-scroll-proportion="-3.75">
+                      <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="common.sass" pinned="false" current-in-tab="false">
+              <file leaf-file-name="common.sass" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/int/css/common.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-1.875">
-                      <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+                    <state vertical-scroll-proportion="0.3488372">
+                      <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="anitmation.sass" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/int/css/anitmation.sass">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="-0.0">
+                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -231,7 +271,6 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/int/css/profile.sass" />
-        <option value="$PROJECT_DIR$/int/css/form.sass" />
         <option value="$PROJECT_DIR$/ext/bootstrap-4.0.0-beta/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/ext/OwlCarousel2-2.2.1/src/js/owl.carousel.js" />
         <option value="$PROJECT_DIR$/int/css/header.sass" />
@@ -248,18 +287,22 @@
         <option value="$PROJECT_DIR$/admin/int/css/variable.sass" />
         <option value="$PROJECT_DIR$/admin/int/js/common.js" />
         <option value="$PROJECT_DIR$/int/css/modal.sass" />
-        <option value="$PROJECT_DIR$/int/css/theme.sass" />
-        <option value="$PROJECT_DIR$/int/css/main.sass" />
         <option value="$PROJECT_DIR$/int/css/buttons.sass" />
-        <option value="$PROJECT_DIR$/int/css/common.sass" />
-        <option value="$PROJECT_DIR$/int/css/variable.sass" />
         <option value="$PROJECT_DIR$/int/js/common.js" />
-        <option value="$PROJECT_DIR$/int/css/nav.sass" />
         <option value="$PROJECT_DIR$/traning.html" />
+        <option value="$PROJECT_DIR$/int/css/nav.sass" />
         <option value="$PROJECT_DIR$/food.html" />
+        <option value="$PROJECT_DIR$/training.html" />
         <option value="$PROJECT_DIR$/note.html" />
         <option value="$PROJECT_DIR$/statistic.html" />
         <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/int/css/main.sass" />
+        <option value="$PROJECT_DIR$/int/css/form.sass" />
+        <option value="$PROJECT_DIR$/int/css/variable.sass" />
+        <option value="$PROJECT_DIR$/ruler.html" />
+        <option value="$PROJECT_DIR$/int/css/common.sass" />
+        <option value="$PROJECT_DIR$/int/css/theme.sass" />
+        <option value="$PROJECT_DIR$/int/css/table.sass" />
       </list>
     </option>
   </component>
@@ -319,7 +362,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -406,6 +448,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="table.sass" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wominator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wominator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="int" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="nav.sass" />
               <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
             </PATH_ELEMENT>
@@ -435,6 +499,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,11 +512,12 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="demo&#9;FILE&#9;file:///Users/Igor/Documents/Anotheria/wominator/int/icons/demo-files/demo.css&#10;note&#9;FILE&#9;file:///Users/Igor/Documents/Anotheria/wominator/note.html&#10;common.&#9;FILE&#9;file:///Users/Igor/Documents/Anotheria/wominator/int/js/common.js" />
+    <property name="SearchEverywhereHistoryKey" value="table&#9;null&#9;null&#10;demo&#9;FILE&#9;file:///Users/Igor/Documents/Anotheria/wominator/int/icons/demo-files/demo.css&#10;note&#9;FILE&#9;file:///Users/Igor/Documents/Anotheria/wominator/note.html&#10;common.&#9;FILE&#9;file:///Users/Igor/Documents/Anotheria/wominator/int/js/common.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/int/css" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ext/bootstrap-datetimepicker-master/build/js" />
     </key>
   </component>
@@ -503,15 +569,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16613418" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14909478" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32773852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -521,6 +586,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -540,30 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/int/css/common.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/css/theme.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="223" column="32" selection-start-line="223" selection-start-column="32" selection-end-line="223" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/int/css/form.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -762,30 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/int/css/anitmation.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/css/header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/css/form.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ext/bootstrap-datetimepicker-master/build/js/moment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5683355">
@@ -844,18 +862,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/int/css/theme.sass">
+    <entry file="file://$PROJECT_DIR$/int/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="277" column="10" selection-start-line="277" selection-start-column="10" selection-end-line="277" selection-end-column="10" />
+        <state vertical-scroll-proportion="-0.6085919">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/int/css/main.sass">
+    <entry file="file://$PROJECT_DIR$/training.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="18" />
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/css/nav.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23529412">
+          <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/css/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5882354">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/css/anitmation.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/css/variable.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/SPL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3440703">
+          <caret line="634" column="10" selection-start-line="634" selection-start-column="10" selection-end-line="634" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -868,74 +958,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/int/css/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/int/css/common.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.3488372">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/int/css/variable.sass">
+    <entry file="file://$PROJECT_DIR$/ruler.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48979592">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.45094937">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/int/js/common.js">
+    <entry file="file://$PROJECT_DIR$/int/css/theme.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078947365">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="22" />
+        <state vertical-scroll-proportion="-20.958334">
+          <caret line="281" column="31" selection-start-line="281" selection-start-column="31" selection-end-line="281" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/int/css/nav.sass">
+    <entry file="file://$PROJECT_DIR$/int/css/form.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7955912">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/food.html">
+    <entry file="file://$PROJECT_DIR$/int/css/table.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.627451">
-          <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/training.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statistic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.458334">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5588235">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.43923867">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>

@@ -6,44 +6,58 @@
     max-width: 800px
     margin-left: auto
     margin-right: auto
-
+    .table-mobile
+        thead
+            th
+                font-size: 0.875rem
+                line-height: 26px
+                padding-top: 5px
+                padding-bottom: 5px
+                color: $light
+                background: $primary
+                border-bottom: none
+                font-weight: 400
+        .form-control
+            border-color: $none-color
+    .table-ruler
+        td
+            height: 40px
+            padding-top: 0
+            padding-bottom: 0
+            line-height: 30px
+            vertical-align: middle
+            &:last-child
+                width: 100px
     .form-data
         border: none
         border-radius: 0
-
     .data-box
         background: $light
         position: relative
         z-index: 101
         overflow: hidden
-
         .box
             padding: 0 .4rem
-
     .data-training,
     .data-food
         .row-food.active
             .form-control
                 background: $none-color
-
         .form-control
             padding: .5rem 0
             font-size: 0.8rem
-
     .title
         padding: .4rem
         text-align: center
         background: $lighter
         position: relative
         display: block
-
         i
             font-size: 1rem
             position: absolute
             right: 10px
             top: 50%
             transform: translateY(-50%)
-
     .progress
         margin-bottom: 15px
 
@@ -62,35 +76,26 @@
     border-top: 1px solid $lighter
     min-height: 40px
     padding: 0 0.4rem
-
     &.active
         background: $active
 
 .row-food
-
     & > .box:nth-child(1)
         width: 21%
-
     & > .box:nth-child(2)
         width: 53%
-
     & > .box:nth-child(3)
         width: 15%
-
     & > .box:nth-child(4)
         width: 12%
 
 .row-training
-
     & > .box:nth-child(1)
         width: 20%
-
     & > .box:nth-child(2)
         width: 40%
-
     & > .box:nth-child(3)
         width: 28%
-
     & > .box:nth-child(4)
         width: 12%
 
@@ -101,7 +106,6 @@
     font-weight: 400
     padding: .4rem
     white-space: nowrap
-
     .row-data
         border: none
         min-height: 10px
@@ -115,9 +119,7 @@
     display: block
     cursor: pointer
     position: relative
-
     &:checked
-
         &:before
             content: "\e876"
             font-family: 'icomoon', sans-serif !important
@@ -188,7 +190,6 @@
     right: -40px
     width: 40px
     background: $danger
-
     .icon-close
         color: $light
         font-size: 1.3rem
@@ -205,27 +206,22 @@
     padding: 0
     margin: 0
     list-style-type: none
-
     .note-block
         margin-bottom: 15px
         padding: 15px
         border-radius: 3px
-
     .note-primary
         background: $active
         border-left: 3px solid $primary
-
     .note-title
         font-size: 1rem
         position: relative
         padding-right: 55px
-
     p
         color: $main-color
         font-size: 0.8rem
         margin-bottom: 0
         line-height: 1.2
-
     .data
         font-size: 0.6rem
         position: absolute
@@ -234,7 +230,6 @@
 
 .wrapper-statistics
     position: relative
-
     .select
         margin-left: 3px
         margin-top: -3px

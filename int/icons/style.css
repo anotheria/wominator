@@ -1,65 +1,68 @@
 @font-face {
-    font-family: 'icomoon';
-    src: url('fonts/icomoon.eot?1nnpal');
-    src: url('fonts/icomoon.eot?1nnpal#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?1nnpal') format('truetype'),
-    url('fonts/icomoon.woff?1nnpal') format('woff'),
-    url('fonts/icomoon.svg?1nnpal#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?u4cgxj');
+  src:  url('fonts/icomoon.eot?u4cgxj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?u4cgxj') format('truetype'),
+    url('fonts/icomoon.woff?u4cgxj') format('woff'),
+    url('fonts/icomoon.svg?u4cgxj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-ruler:before {
+  content: "\e900";
+}
 .icon-check:before {
-    content: "\e876";
+  content: "\e876";
 }
 .icon-cancel:before {
-    content: "\e611";
+  content: "\e611";
 }
 .icon-add:before {
-    content: "\e145";
+  content: "\e145";
 }
 .icon-chat:before {
-    content: "\e0cb";
+  content: "\e0cb";
 }
 .icon-close:before {
-    content: "\e5cd";
+  content: "\e5cd";
 }
 .icon-note:before {
-    content: "\e14d";
+  content: "\e14d";
 }
 .icon-square:before {
-    content: "\e3c6";
+  content: "\e3c6";
 }
 .icon-statistic:before {
-    content: "\e01d";
+  content: "\e01d";
 }
 .icon-fitness:before {
-    content: "\eb43";
+  content: "\eb43";
 }
 .icon-info:before {
-    content: "\e88f";
+  content: "\e88f";
 }
 .icon-food:before {
-    content: "\e56c";
+  content: "\e56c";
 }
 .icon-navigate_prev:before {
-    content: "\e408";
+  content: "\e408";
 }
 .icon-navigate_next:before {
-    content: "\e409";
+  content: "\e409";
 }
