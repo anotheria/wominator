@@ -6,28 +6,6 @@
     max-width: 800px
     margin-left: auto
     margin-right: auto
-    .table-mobile
-        thead
-            th
-                font-size: 0.875rem
-                line-height: 26px
-                padding-top: 5px
-                padding-bottom: 5px
-                color: $light
-                background: $primary
-                border-bottom: none
-                font-weight: 400
-        .form-control
-            border-color: $none-color
-    .table-ruler
-        td
-            height: 40px
-            padding-top: 0
-            padding-bottom: 0
-            line-height: 30px
-            vertical-align: middle
-            &:last-child
-                width: 100px
     .form-data
         border: none
         border-radius: 0
@@ -36,6 +14,8 @@
         position: relative
         z-index: 101
         overflow: hidden
+        .form-control
+            box-shadow: none
         .box
             padding: 0 .4rem
     .data-training,
@@ -138,45 +118,6 @@
             width: 20px
             height: 20px
 
-//.owl-navigation
-//    position: absolute
-//    top: 2px
-//    left: 0
-//    right: 0
-//    z-index: 101
-//
-//    .owl-prev
-//        position: absolute
-//        left: 0
-//        top: 0
-//
-//        &:before
-//            content: "\e408"
-//            font-size: 1.2rem
-//            font-family: 'icomoon', sans-serif !important
-//            font-style: normal
-//            font-weight: normal
-//            font-variant: normal
-//            text-transform: none
-//            line-height: 1
-//            -webkit-font-smoothing: antialiased
-//
-//    .owl-next
-//        position: absolute
-//        right: 0
-//        top: 0
-//
-//        &:before
-//            content: "\e409"
-//            font-size: 1.2rem
-//            font-family: 'icomoon', sans-serif !important
-//            font-style: normal
-//            font-weight: normal
-//            font-variant: normal
-//            text-transform: none
-//            line-height: 1
-//            -webkit-font-smoothing: antialiased
-
 .swipe-area
     position: relative
     transition: $animation
@@ -241,3 +182,10 @@
 
 .timepicker.col-md-6
     display: none
+
+.shadow
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), #fff)
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), #fff)
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), #fff)
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), #fff)
+    background-image: linear-gradient(to right, rgba(0,0,0,0), #fff)

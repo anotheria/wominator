@@ -17,5 +17,84 @@
             align-items: center
 
 .table-mobile
+    thead
+        white-space: nowrap
+        th
+            font-size: 0.875rem
+            line-height: 26px
+            padding-top: 5px
+            padding-bottom: 5px
+            color: $light
+            background: $primary
+            border-bottom: none
+            font-weight: 400
+            .data
+                display: block
+                line-height: 1
+                margin-bottom: 10px
+    .form-control
+        border-color: $none-color
+        box-shadow: none
     tbody
         background: $light
+        white-space: nowrap
+        td
+            height: 40px
+            padding-top: 0
+            padding-bottom: 0
+            line-height: 30px
+            vertical-align: middle
+            &:last-child
+                width: 100px
+
+.table-fixed-column
+    margin-left: 95px
+    thead
+        position: relative
+        z-index: 102
+        th:first-child
+            position: absolute
+            top: 0
+            left: 0
+            background: $primary
+            width: 95px
+    tbody
+        position: relative
+        td:first-child
+            text-align: left
+            position: absolute
+            top: auto
+            left: 0
+            width: 95px
+            background: $light
+            line-height: 40px
+            border-right: 1px solid $lighter
+            &:after
+                content: ""
+                box-shadow: 0 0 8px rgba(0, 0, 0, 0.4)
+                position: absolute
+                right: 0
+                top: 0
+                bottom: 0
+                display: block
+                width: 1px
+                z-index: 1
+            &:before
+                content: ""
+                width: 5px
+                position: absolute
+                right: 0
+                top: 0
+                bottom: 0
+                display: block
+                z-index: 2
+                background: $light
+
+    .shadow
+        width: 40px
+        position: absolute
+        right: 0
+        top: 0
+        bottom: 55px
+        z-index: 101
+        opacity: 0.8
