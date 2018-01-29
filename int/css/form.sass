@@ -10,6 +10,7 @@
     border: 1px solid $lighter
     box-shadow: 0 5px 15px $light-main-color
     border-radius: 2px
+    transition: all 0.2s ease-in-out
 
     &:disabled
         background: $none-color
@@ -28,3 +29,48 @@
 
 .select-xs
     width: 22px
+
+.material-form
+    .form-group
+        position: relative
+    label
+        position: absolute
+        top: 13px
+        left: 8px
+        color: $main-color
+        margin: 0
+        transform: translate3d(0, 0, 0)
+        transition: all 0.2s ease-in-out
+        z-index: -1
+    input
+        display: block
+        width: 100%
+        height: 2.6rem
+        padding: 16px 8px 3px
+        border: none
+        background: rgba(0,0,0,0)
+        border-bottom: 1px solid $light-main-color
+        font-weight: 400
+        line-height: 1
+        color: $main-color
+        outline: 0
+        appearance: none
+        transition: all 0.2s ease-in-out
+        position: relative
+        &[data-empty="false"],
+        &:valid,
+        &:focus
+            outline: 0
+            border-color: $primary
+        &[data-empty="false"] + label,
+        &:valid + label,
+        &:focus + label
+            color: $primary
+            font-weight: 700
+            font-size: 12px
+            transform: translate3d(0, -10px, 0)
+            z-index: 101
+    .form-footer
+        margin-top: 30px
+
+
