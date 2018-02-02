@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'icon-question': '&#xe901;',
 		'icon-ruler': '&#xe900;',
 		'icon-check': '&#xe876;',
 		'icon-cancel': '&#xe611;',
